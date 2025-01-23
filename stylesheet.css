@@ -1,0 +1,374 @@
+.logo {
+    width: 110px;
+}
+
+/*Body*/
+
+body {
+    margin: 0%;
+}
+
+.body-index {
+    background-image: url(./beeld/backgroundred.jpeg);
+}
+
+.body-over {
+    background-image: url(./beeld/backgroundblauw.jpeg);
+}
+
+.body-kilospel {
+    background-image: url(./beeld/backgroundgroen.jpeg);
+}
+
+/*---------*/
+
+header img {
+    width: 200px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.index-pagina {
+    background-image: url(./beeld/backgroundred.jpeg);
+}
+
+.over-pagina {
+    position: sticky;
+    top: 0;
+    background-image: url(./beeld/backgroundblauw.jpeg);
+    z-index: 999;
+}
+
+.kilospel-pagina {
+    position: sticky;
+    top: 0;
+    background-image: url(./beeld/backgroundgroen.jpeg);
+    z-index: 999;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    margin-top: 250px;
+    margin-right: 20px;
+}
+
+/* eerst beeld scherm */
+.actie-beeld {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 46px;
+}
+
+/* alle h1tjes */
+h1 {
+    font-family: "ltc-goudy-heavyface-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #efefd8;
+    text-align: center;
+}
+
+h2 {
+    font-family: "ltc-goudy-heavyface-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #efefd8;
+    text-align: center;
+}
+
+/* de vintage splash met waarom 2e hands?*/
+.image-tekst-container {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.vintagesplash {
+    width: 100%;
+    height: auto;
+}
+
+.tekst-overlap {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: beige;
+    text-align: center;
+}
+
+.tekst-overlap h1 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/*---------------*/
+
+.tekst-overlap h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.tekst-overlap p {
+    margin: 0px;
+    font-size: 1em;
+    text-align: left;
+}
+
+p {
+    font-family: "thermal-variable", sans-serif;
+    font-variation-settings: "opsz" 100, "wght" 100;
+    margin-bottom: 1em;
+    margin-top: 1rem;
+    color: beige;
+}
+
+.centered {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*buttons*/
+
+
+.button-link {
+    padding: 10px 20px;
+    background-color: #fccd06;
+    color: black;
+    text-decoration: none;
+    border-radius: 3em;
+    text-align: center;
+    font-family: "ltc-goudy-heavyface-pro", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    width: 120px;
+    position: absolute;
+    left: 29%;
+    margin-bottom: 100px;
+    bottom: -85%;
+}
+
+.button-link-over {
+    padding: 10px 20px;
+    background-color: #fccd06;
+    color: black;
+    text-decoration: none;
+    border-radius: 3em;
+    text-align: center;
+    font-family: "ltc-goudy-heavyface-pro", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    width: 120px;
+    position: absolute;
+    left: 29%;
+    margin-bottom: 100px;
+    bottom: -100%;
+}
+
+.button-link-kilospel {
+    padding: 10px 20px;
+    background-color: #fccd06;
+    color: black;
+    text-decoration: none;
+    border-radius: 3em;
+    text-align: center;
+    font-family: "ltc-goudy-heavyface-pro", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    width: 120px;
+    position: absolute;
+    left: 29%;
+}
+/*-----------------*/
+
+/* pagina indeling index */
+.container-pagina-indeling {
+    position: relative;
+    text-align: left;
+    color: beige;
+    margin-top: 4em;
+}
+
+.containerkopjes2 {
+    position: relative;
+    margin-bottom: -4em;
+}
+
+a {
+    text-decoration: none;
+    color: #efefd8;
+}
+
+.schermhoofd-1 img {
+    width: 100%;
+    
+}
+
+.list-nonnav {
+    margin-bottom: -60px;
+}
+
+.image-kilostore img {
+    position: relative;
+    width: 100%;
+    left: 1%;
+    border-radius: 1em;
+    margin-top: 15px;
+}
+
+.image-kilostore p {
+    margin-bottom: 40px;
+}
+
+.image-kilostore-2 img {
+    position: relative;
+    width: 140px;
+    border-radius: 1em;
+    float: right;
+    margin-left: 15%;
+}
+
+.image-kilostore-3 img {
+    position: relative;
+    width: 100%;
+    left: 1%;
+    border-radius: 1em;
+    margin-top: -120px;
+    margin-bottom: 20px;
+    
+}
+
+
+.vintagesplash-geel img {
+    width: 120px;
+    position: relative;
+    float: left;
+}
+
+.vintagesplash-geel p {
+    position: relative;
+    position: relative;
+    width: 150px;
+    float: left;
+    bottom: 220px;
+}
+
+.vintagesplash-geel-2 img {
+    width: 120px;
+    position: relative;
+    float: left;
+}
+
+.vintagesplash-geel-2 p {
+    position: relative;
+    float: left;
+    left: 9px;
+    top: -70px;
+}
+
+.over-p {
+    width: 100%;
+}
+
+.kilospel img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: baseline;
+    margin: 0;
+}
+
+footer img {
+    width: 100%;
+}
+
+.on-screen-menu img {
+    width: 120px;
+}
+
+.off-screen-menu {
+    background-image: url(beeld/backgroundzwart.jpeg);
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: .3s ease;
+    font-family: "noka", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.off-screen-menu.active {
+    right: 0;
+}
+nav {
+    padding: 1rem;
+    display: flex;
+}
+
+.ham-menu {
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+    z-index: 999;
+}
+
+.ham-menu span {
+    height: 5px;
+    width: 100%;
+    background-color: beige;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+.ham-menu span:nth-child(1) {
+    top: 25%;
+}
+
+.ham-menu span:nth-child(3) {
+    top: 75%;
+}
+
+.ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-20%, 0%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-20%, 0%) rotate(-45deg);
+}
+
+main {
+    margin: 20px;
+    margin-bottom: 170px;
+}
